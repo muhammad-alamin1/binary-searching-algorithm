@@ -1,0 +1,9 @@
+Binary Search Algorithm
+
+*Req: The numbers in the array must be sorted from Ascending or Descending.
+
+Step-1: mid = (low + high) / 2.
+Step-2: If mid and N(Find number) are equal, let's go to step 5.
+Step-3: If N is greater than mid, then low = mid + 1. let's go to step 1.
+Step-4: If N is less than mid, then high = mid - 1 and let's go to step 1.
+Step-5: number found(mid)
